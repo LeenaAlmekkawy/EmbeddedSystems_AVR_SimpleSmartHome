@@ -1,0 +1,22 @@
+#ifndef KBD_CONFIG_H
+#define KBD_CONFIG_H
+
+#define KPD_COLUMNS_PORT  PORTC
+#define KPD_COLUMN0_PIN PIN4
+#define KPD_COLUMN1_PIN PIN5
+#define KPD_COLUMN2_PIN PIN6
+#define KPD_COLUMN3_PIN PIN7
+
+#define KPD_ROWS_PORT  PORTC
+
+#define KPD_ROW0_PIN PIN3
+#define KPD_ROW1_PIN PIN2
+#define KPD_ROW2_PIN PIN1
+#define KPD_ROW3_PIN PIN0
+
+#define KPD_KEYSARRAY_VALUES {{1,2,3,20},{4,5,6,20},{7,8,9,20},{12,0,13,20}}
+
+#define KPD_NO_PRESSEDKEY  0xAA
+
+
+#endif
